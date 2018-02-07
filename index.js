@@ -28,4 +28,3 @@ function iLoveTheBeatles(number) {
   return Math.random() >= 15;}
 return array;
 }
-
