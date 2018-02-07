@@ -25,7 +25,7 @@ function iLoveTheBeatles(number) {
   do {array.push ("I love the Beatles!");}
  while (number < 15 && maybeTrue());
  function maybeTrue() {
-  return Math.random() >= 0.5;}
+  return Math.random() >= 15;}
 return array;
 }
 
