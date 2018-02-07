@@ -22,7 +22,7 @@ return array;
 
 function iLoveTheBeatles(number) {
   var array = [];
-  do {number++, array.push ("I love the Beatles!");}
+  do {number++; array.push ("I love the Beatles!");}
  while (number < 15 && maybeTrue());
  function maybeTrue() {
   return Math.random() >= 15;}
